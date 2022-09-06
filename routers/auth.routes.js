@@ -52,6 +52,6 @@ router.get(
 router.get("/checkAutherization", checkRefreshToken, checkAccesToken);
 router.get("/getToken", getToken);
 router.get("/deleteCookies", logout);
-router.get("/checkCredentials", credentials); //here
+router.get("/checkCredentials", credentials);
 router.get("/checkAdmin", checkRefreshToken, checkAccesToken, checkAdmin);
 module.exports = router;
